@@ -39,19 +39,33 @@ def index():
     return render_template("index.html")
 
 
+
+
 @app.route("/api/status")
 def status():
     meta = utils.load_json(config.FINAL_MODEL_META_JSON)
     cm = utils.load_json(config.CLASS_MAP_JSON)
     metrics = utils.load_json(config.FINAL_METRICS_JSON)
+
+    model_ready = False
+
+    if meta:
+        raw_path = meta.get("model_path", "")
+
+        if raw_path:
+            model_path = Path(raw_path)
+
+            if not model_path.is_absolute():
+                model_path = ROOT / model_path
+
+            model_ready = model_path.is_file()
+
     return jsonify({
-        "model_ready": bool(meta) and _exists(Path(meta.get("model_path", "")))
-        if meta else False,
+        "model_ready": model_ready,
         "evaluated": bool(metrics),
         "classes": (cm or {}).get("classes"),
-        "selected_model": (meta or {}).get("selected_model"),
+        "selected_model": (meta or {}).get("selected_model")
     })
-
 
 @app.route("/api/dataset")
 def dataset_info():

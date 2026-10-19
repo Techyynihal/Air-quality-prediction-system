@@ -7,8 +7,7 @@
   "parameters": 4057257,
   "model_size_mb": 15.48,
   "image_size": 224,
-  "model_path": "C:\\Users\\nihal\\claude air quality\\air-quality-deep-learning\\models\\manual_run.keras",
-  "considered": [
+"model_path": "models/manual_run.keras",  "considered": [
     {
       "model": "efficientnetb0",
       "val_macro_f1": 0.2461,
