@@ -1,0 +1,2 @@
+experiment,model,image_size,augmentation,class_weights,frozen_backbone_stage1,finetune_unfreeze,learning_rate_head,learning_rate_finetune,optimizer,epochs_total,best_epoch,val_accuracy,val_macro_f1,val_weighted_f1,val_loss,training_time_sec,parameters,trainable_parameters,model_size_mb,inference_latency_ms,notes
+manual_run,efficientnetb0,224,True,True,True,40,0.001,1e-05,adam,14,1,0.2782,0.2461,0.2269,2.0997,6752.5,4057257,2045206,15.48,84.22,full

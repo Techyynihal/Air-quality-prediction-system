@@ -1,0 +1,39 @@
+{
+  "os": {
+    "system": "Linux",
+    "release": "6.8.0-136-generic",
+    "version": "#136~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul  3 16:29:11 UTC ",
+    "machine": "x86_64"
+  },
+  "python_version": "3.10.12",
+  "cpu": {
+    "processor": "x86_64",
+    "logical_cores": 2
+  },
+  "ram_gb": 0.94,
+  "gpu": {
+    "nvidia_smi_devices": null,
+    "has_gpu": false
+  },
+  "tensorflow": {
+    "available": false,
+    "error": "No module named 'tensorflow'"
+  },
+  "libraries": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "sklearn": null,
+    "PIL": "12.3.0",
+    "cv2": "5.0.0",
+    "matplotlib": "3.10.9",
+    "seaborn": "0.13.2",
+    "imagehash": null,
+    "flask": null
+  },
+  "recommended": {
+    "device": "CPU",
+    "mixed_precision": false,
+    "suggested_batch_size": 16,
+    "note": "No GPU detected - prefer screening + fewer candidates; training will be slow on CPU."
+  }
+}

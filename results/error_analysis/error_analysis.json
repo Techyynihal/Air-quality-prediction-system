@@ -1,0 +1,274 @@
+{
+  "n_test": 1815,
+  "n_errors": 1224,
+  "error_rate": 0.6744,
+  "most_confused_pairs": [
+    {
+      "actual": "c_Unhealthy_for_Sensitive_Groups",
+      "predicted": "d_Unhealthy",
+      "count": 188
+    },
+    {
+      "actual": "a_Good",
+      "predicted": "b_Moderate",
+      "count": 149
+    },
+    {
+      "actual": "c_Unhealthy_for_Sensitive_Groups",
+      "predicted": "b_Moderate",
+      "count": 148
+    },
+    {
+      "actual": "e_Very_Unhealthy",
+      "predicted": "c_Unhealthy_for_Sensitive_Groups",
+      "count": 143
+    },
+    {
+      "actual": "e_Very_Unhealthy",
+      "predicted": "d_Unhealthy",
+      "count": 134
+    },
+    {
+      "actual": "f_Severe",
+      "predicted": "a_Good",
+      "count": 114
+    },
+    {
+      "actual": "b_Moderate",
+      "predicted": "a_Good",
+      "count": 91
+    },
+    {
+      "actual": "d_Unhealthy",
+      "predicted": "c_Unhealthy_for_Sensitive_Groups",
+      "count": 49
+    },
+    {
+      "actual": "c_Unhealthy_for_Sensitive_Groups",
+      "predicted": "a_Good",
+      "count": 44
+    },
+    {
+      "actual": "f_Severe",
+      "predicted": "e_Very_Unhealthy",
+      "count": 38
+    }
+  ],
+  "per_class_error": {
+    "a_Good": {
+      "support": 246,
+      "errors": 160,
+      "error_rate": 0.6504
+    },
+    "b_Moderate": {
+      "support": 274,
+      "errors": 106,
+      "error_rate": 0.3869
+    },
+    "c_Unhealthy_for_Sensitive_Groups": {
+      "support": 418,
+      "errors": 414,
+      "error_rate": 0.9904
+    },
+    "d_Unhealthy": {
+      "support": 413,
+      "errors": 83,
+      "error_rate": 0.201
+    },
+    "e_Very_Unhealthy": {
+      "support": 302,
+      "errors": 299,
+      "error_rate": 0.9901
+    },
+    "f_Severe": {
+      "support": 162,
+      "errors": 162,
+      "error_rate": 1.0
+    }
+  },
+  "high_confidence_errors": [
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-421.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.9574952
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-246.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.954969
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-266.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.9494506
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-256.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.94700927
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-386.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.94466126
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-261.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.94230944
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-371.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.9400948
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-391.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.93915576
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-411.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.9382827
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-276.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.9359224
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-356.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.9346216
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-81.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.92925966
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-416.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.92714924
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-241.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.92568886
+    },
+    {
+      "filename": "MH_UnFSG_2023-03-10-16.00-1-11.jpg",
+      "true_label": "c_Unhealthy_for_Sensitive_Groups",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.92500925
+    }
+  ],
+  "low_confidence_predictions": [
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-233.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "f_Severe",
+      "confidence": 0.1910939
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-389.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "e_Very_Unhealthy",
+      "confidence": 0.1972228
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-369.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "c_Unhealthy_for_Sensitive_Groups",
+      "confidence": 0.19727062
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-265.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.19754028
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-213.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "f_Severe",
+      "confidence": 0.19885336
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-225.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.1988812
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-241.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "f_Severe",
+      "confidence": 0.20229986
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-229.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.20444454
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-169.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "e_Very_Unhealthy",
+      "confidence": 0.2047804
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-397.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "f_Severe",
+      "confidence": 0.20733479
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-161.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.20772018
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-209.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.21035865
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-293.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "f_Severe",
+      "confidence": 0.21109088
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-269.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "d_Unhealthy",
+      "confidence": 0.21280439
+    },
+    {
+      "filename": "UP_UN_2023-03-01-08.30-1-257.jpg",
+      "true_label": "d_Unhealthy",
+      "pred_label": "e_Very_Unhealthy",
+      "confidence": 0.21317568
+    }
+  ],
+  "caveat": "Confusions may reflect possible visual factors (haze, lighting, similar scenes); not asserted as proven causes."
+}

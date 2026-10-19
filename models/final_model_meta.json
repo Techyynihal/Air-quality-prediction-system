@@ -1,0 +1,19 @@
+{
+  "selected_model": "efficientnetb0",
+  "selected_experiment": "manual_run",
+  "selection_rule": "Highest validation Macro-F1; ties within 0.01 F1 broken toward the smaller model for efficiency. Test set NOT used in selection.",
+  "val_accuracy": 0.2782,
+  "val_macro_f1": 0.2461,
+  "parameters": 4057257,
+  "model_size_mb": 15.48,
+  "image_size": 224,
+  "model_path": "C:\\Users\\nihal\\claude air quality\\air-quality-deep-learning\\models\\manual_run.keras",
+  "considered": [
+    {
+      "model": "efficientnetb0",
+      "val_macro_f1": 0.2461,
+      "val_accuracy": 0.2782,
+      "model_size_mb": 15.48
+    }
+  ]
+}

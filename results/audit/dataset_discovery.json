@@ -1,0 +1,332 @@
+{
+  "dataset_root": "C:\\Users\\nihal\\claude air quality\\air-quality-deep-learning\\dataset\\archive (1)\\Air Pollution Image Dataset\\Air Pollution Image Dataset\\Country_wise_Dataset",
+  "n_images_found": 12240,
+  "n_csv_files": 8,
+  "csv_files": [
+    "India/Bengaluru/Bengaluru_AQI_All_info.csv",
+    "India/Delhi/Delhi_AQI_All_Info.csv",
+    "India/Dimapur/Dimapur_AQI_All_Info.csv",
+    "India/Faridabad/Faridabad_AQI_All_Info.csv",
+    "India/Greater_Noida/KPIII_UP_AQI_All.csv",
+    "India/Mumbai/Mumbai_AQI_All.csv",
+    "India/Tamil_Nadu/Oragadam_AQI_All_Info.csv",
+    "Nepal/Biratnagar/Biratnagar_AQI_All_info.csv"
+  ],
+  "folder_label_candidates": [
+    "a_Good",
+    "b_Moderate",
+    "c_Unhealthy_for_Sensitive_Groups",
+    "d_Unhealthy",
+    "e_Very_Unhealthy",
+    "f_Severe"
+  ],
+  "n_folder_label_candidates": 6,
+  "csv_summaries": [
+    {
+      "file": "India/Bengaluru/Bengaluru_AQI_All_info.csv",
+      "columns": [
+        "Location",
+        "Filename",
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ],
+      "n_rows": 1926,
+      "filename_column": "Filename",
+      "group_columns": [
+        "Location",
+        "Year",
+        "Month",
+        "Day",
+        "Hour"
+      ],
+      "aqi_columns": [
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ]
+    },
+    {
+      "file": "India/Delhi/Delhi_AQI_All_Info.csv",
+      "columns": [
+        "Location",
+        "Filename",
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ],
+      "n_rows": 2168,
+      "filename_column": "Filename",
+      "group_columns": [
+        "Location",
+        "Year",
+        "Month",
+        "Day",
+        "Hour"
+      ],
+      "aqi_columns": [
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ]
+    },
+    {
+      "file": "India/Dimapur/Dimapur_AQI_All_Info.csv",
+      "columns": [
+        "Location",
+        "Filename",
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ],
+      "n_rows": 350,
+      "filename_column": "Filename",
+      "group_columns": [
+        "Location",
+        "Year",
+        "Month",
+        "Day",
+        "Hour"
+      ],
+      "aqi_columns": [
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ]
+    },
+    {
+      "file": "India/Faridabad/Faridabad_AQI_All_Info.csv",
+      "columns": [
+        "Location",
+        "Filename",
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ],
+      "n_rows": 641,
+      "filename_column": "Filename",
+      "group_columns": [
+        "Location",
+        "Year",
+        "Month",
+        "Day",
+        "Hour"
+      ],
+      "aqi_columns": [
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ]
+    },
+    {
+      "file": "India/Greater_Noida/KPIII_UP_AQI_All.csv",
+      "columns": [
+        "Location",
+        "Filename",
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ],
+      "n_rows": 1241,
+      "filename_column": "Filename",
+      "group_columns": [
+        "Location",
+        "Year",
+        "Month",
+        "Day",
+        "Hour"
+      ],
+      "aqi_columns": [
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ]
+    },
+    {
+      "file": "India/Mumbai/Mumbai_AQI_All.csv",
+      "columns": [
+        "Location",
+        "Filename",
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ],
+      "n_rows": 2203,
+      "filename_column": "Filename",
+      "group_columns": [
+        "Location",
+        "Year",
+        "Month",
+        "Day",
+        "Hour"
+      ],
+      "aqi_columns": [
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ]
+    },
+    {
+      "file": "India/Tamil_Nadu/Oragadam_AQI_All_Info.csv",
+      "columns": [
+        "Location",
+        "Filename",
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ],
+      "n_rows": 1540,
+      "filename_column": "Filename",
+      "group_columns": [
+        "Location",
+        "Year",
+        "Month",
+        "Day",
+        "Hour"
+      ],
+      "aqi_columns": [
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ]
+    },
+    {
+      "file": "Nepal/Biratnagar/Biratnagar_AQI_All_info.csv",
+      "columns": [
+        "Location",
+        "Filename",
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ],
+      "n_rows": 2171,
+      "filename_column": "Filename",
+      "group_columns": [
+        "Location",
+        "Year",
+        "Month",
+        "Day",
+        "Hour"
+      ],
+      "aqi_columns": [
+        "AQI",
+        "PM2.5",
+        "PM10",
+        "O3",
+        "CO",
+        "SO2",
+        "NO2",
+        "AQI_Class"
+      ]
+    }
+  ],
+  "primary_label_source": "folder",
+  "reason": "Class sub-folders detected; folder names are used as the primary, unambiguous ground-truth labels. CSV metadata (if any) is used only to enrich location/AQI info and to build leakage groups."
+}

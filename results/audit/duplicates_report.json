@@ -1,0 +1,60 @@
+{
+  "n_files_scanned": 12240,
+  "n_files_phashed": 12240,
+  "n_exact_groups": 129,
+  "n_near_groups": 967,
+  "near_dups_merged_into_leakage_groups": false,
+  "near_dup_policy": "Near-duplicate clusters are reported but NOT used as split/leakage groups by default: transitive perceptual-hash chaining over low-detail images can merge thousands of distinct scenes. Same-session leakage is handled precisely by the metadata group_id (location + date + hour), and exact (MD5) duplicates are always merged.",
+  "largest_exact_group": 2,
+  "largest_near_group": 3421,
+  "examples_exact": [
+    [
+      "UP_UHFSG_2023-02-08-08.30-5.jpg",
+      "UP_UHFSG_2023-02-08-08.30-6.jpg"
+    ],
+    [
+      "UP_UHFSG_2023-02-15-17.00-1.jpg",
+      "UP_VU_2023-02-16-08.30-5.jpg"
+    ],
+    [
+      "UP_VUN_2023-02-27-10.30-3.jpg",
+      "UP_VUN_2023-02-27-10.30-7.jpg"
+    ],
+    [
+      "UP_SEV_2023-02-18-11.00-1-1.jpg",
+      "UP_SEV_2023-02-18-14.30-1-1.jpg"
+    ],
+    [
+      "UP_SEV_2023-02-18-11.00-1-10.jpg",
+      "UP_SEV_2023-02-18-14.30-1-10.jpg"
+    ]
+  ],
+  "examples_near": [
+    [
+      "BENGR_Good_2023-02-19-08.30-1-1.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-2.jpg"
+    ],
+    [
+      "BENGR_Good_2023-02-19-08.30-1-10.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-11.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-9.jpg"
+    ],
+    [
+      "BENGR_Good_2023-02-19-08.30-1-19.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-20.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-21.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-22.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-23.jpg"
+    ],
+    [
+      "BENGR_Good_2023-02-19-08.30-1-27.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-28.jpg"
+    ],
+    [
+      "BENGR_Good_2023-02-19-08.30-1-33.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-34.jpg",
+      "BENGR_Good_2023-02-19-08.30-1-35.jpg"
+    ]
+  ],
+  "note": ""
+}

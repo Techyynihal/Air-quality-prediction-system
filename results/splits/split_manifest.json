@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "ratios_target": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "counts": {
+    "train": 8434,
+    "val": 1862,
+    "test": 1815
+  },
+  "class_distribution": {
+    "train": {
+      "c_Unhealthy_for_Sensitive_Groups": 1997,
+      "d_Unhealthy": 1835,
+      "e_Very_Unhealthy": 1522,
+      "b_Moderate": 1089,
+      "a_Good": 1063,
+      "f_Severe": 928
+    },
+    "val": {
+      "c_Unhealthy_for_Sensitive_Groups": 444,
+      "d_Unhealthy": 372,
+      "e_Very_Unhealthy": 368,
+      "f_Severe": 237,
+      "a_Good": 231,
+      "b_Moderate": 210
+    },
+    "test": {
+      "c_Unhealthy_for_Sensitive_Groups": 418,
+      "d_Unhealthy": 413,
+      "e_Very_Unhealthy": 302,
+      "b_Moderate": 274,
+      "a_Good": 246,
+      "f_Severe": 162
+    }
+  },
+  "group_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "zero_leakage": true,
+  "classes": [
+    "a_Good",
+    "b_Moderate",
+    "c_Unhealthy_for_Sensitive_Groups",
+    "d_Unhealthy",
+    "e_Very_Unhealthy",
+    "f_Severe"
+  ]
+}

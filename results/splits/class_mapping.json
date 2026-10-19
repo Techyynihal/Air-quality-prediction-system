@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "a_Good",
+    "b_Moderate",
+    "c_Unhealthy_for_Sensitive_Groups",
+    "d_Unhealthy",
+    "e_Very_Unhealthy",
+    "f_Severe"
+  ],
+  "class_to_idx": {
+    "a_Good": 0,
+    "b_Moderate": 1,
+    "c_Unhealthy_for_Sensitive_Groups": 2,
+    "d_Unhealthy": 3,
+    "e_Very_Unhealthy": 4,
+    "f_Severe": 5
+  }
+}
